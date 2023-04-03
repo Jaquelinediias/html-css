@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Dados</title>
+    <style>
+        *{
+            margin: 10px;
+        }
+        body{
+            background-color: #e2d8d8;
+        }
+        table{
+
+            border-collapse: collapse;
+            background-color: rgba(255, 255, 255, 0.7);
+            border: 3px solid #000000;
+
+            position: relative;
+            margin: auto;
+        }
+        tbody> tr:nth-child(2n){
+            background-color:#f00a3cce;
+        }
+        th{
+            background-color: #ccc;
+        }
+        th,td{
+            border:2px solid #000000;
+            padding: 10px;
+
+            font-weight: bolder;
+        }
+        td{
+            text-align: center;
+        }
+        td.dado{
+            color: #000000;
+            text-align: left;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+        }
+        caption{
+            font-size: 20px;
+            font-weight: bold;
+            color: #aa0808;
+        }
+        a{
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            color: #000000;
+           
+        }
+        a:hover{
+            text-decoration: underline;
+            color: #aa0808;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Tipos de Violência contra a mulheres -2021</caption>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Bahia</th>
+            <th>Ceará</th>
+            <th>Pernambuco</th>
+            <th>Rio De Janeiro</th>
+            <th>São Paulo</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="dado">Tentativa de feminicídio/Agressão Física</td>
+                <td>50</td>
+                <td>38</td>
+                <td>93</td>
+                <td>192</td>
+                <td>501</td>
+                <td>874</td>
+            </tr>
+            <tr>
+                <td class="dado">Feminicídio</td>
+                <td>66</td>
+                <td>22</td>
+                <td>91</td>
+                <td>73</td>
+                <td>157</td>
+                <td>409</td>
+            </tr>
+            <tr>
+                <td class="dado">Homicídio</td>
+                <td>55</td>
+                <td>52</td>
+                <td>66</td>
+                <td>43</td>
+                <td>73</td>
+                <td>289</td>
+            </tr>            
+            <tr>
+                <td class="dado">Violência Sexual/Estrupo</td>
+                <td>29</td>
+                <td>17</td>
+                <td>18</td>
+                <td>39</td>
+                <td>97</td>
+                <td>200</td>
+            </tr>          
+            <tr>
+                <td class="dado">Tortura/Cárcere privado/Sequestro</td>
+                <td>7</td>
+                <td>29</td>
+                <td>9</td>
+                <td>34</td>
+                <td>52</td>
+                <td>131</td>
+            </tr>          
+            <tr>
+                <td class="dado">Agressão Verbal/Ameaça</td>
+                <td>6</td>
+                <td>12</td>
+                <td>7</td>
+                <td>31</td>
+                <td>41</td>
+                <td>97</td>
+            </tr>           
+            <tr>
+                <td class="dado">Tentaviva de Homicídio</td>
+                <td>13</td>
+                <td>14</td>
+                <td>25</td>
+                <td>42</td>
+                <td>0</td>
+                <td>94</td>
+            </tr>           
+            <tr>
+                <td class="dado">Outros</td>
+                <td>4</td>
+                <td>12</td>
+                <td>12</td>
+                <td>1</td>
+                <td>43</td>
+                <td>72</td>
+            </tr>          
+            <tr>
+                <td class="dado">Transfeminicídio</td>
+                <td>0</td>
+                <td>11</td>
+                <td>10</td>
+                <td>1</td>
+                <td>5</td>
+                <td>27</td>
+            </tr>           
+            <tr>
+                <td class="dado">Bala Perdida</td>
+                <td>2</td>
+                <td>8</td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                <td>17</td>
+            </tr>           
+            <tr>
+                <td class="dado">Total Por Estado</td>
+                <td>232</td>
+                <td>215</td>
+                <td>338</td>
+                <td>456</td>
+                <td>969</td>
+                <td>2.210</td>
+            </tr>           
+           
+        </tbody>
+        <tfoot>
+           <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+           </tr>
+        </tfoot>
+    </table>
+    <br>
+    <a href="https://g1.globo.com/ba/bahia/noticia/2022/03/10/bahia-tem-um-caso-de-violencia-contra-a-mulher-a-cada-dois-dias-aponta-pesquisa.ghtml" target="_blank">fonte: G1 BAHIA</a>
+    <br><br>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aspernatur voluptate minima odit reprehenderit voluptatem dolores. Enim quam odit distinctio impedit necessitatibus. Ad ducimus ipsum, officia alias totam ullam cumque?</p>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, maxime aperiam necessitatibus perspiciatis eius quis quaerat ex eum laudantium? Neque suscipit in, provident voluptatem repellat eos iure eveniet eligendi. Nihil.</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aut reprehenderit sit, quo esse placeat mollitia, voluptates accusantium facere deserunt officia hic accusamus saepe, nemo exercitationem magni eligendi incidunt. Aut.</p>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem debitis sapiente molestias quis est, asperiores optio vitae impedit dolorum laboriosam quae, numquam porro pariatur inventore modi delectus minus? Voluptate, nam </p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aspernatur voluptate minima odit reprehenderit voluptatem dolores. Enim quam odit distinctio impedit necessitatibus. Ad ducimus ipsum, officia alias totam ullam cumque?</p>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, maxime aperiam necessitatibus perspiciatis eius quis quaerat ex eum laudantium? Neque suscipit in, provident voluptatem repellat eos iure eveniet eligendi. Nihil.</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aut reprehenderit sit, quo esse placeat mollitia, voluptates accusantium facere deserunt officia hic accusamus saepe, nemo exercitationem magni eligendi incidunt. Aut.</p>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem debitis sapiente molestias quis est, asperiores optio vitae impedit dolorum laboriosam quae, numquam porro pariatur inventore modi delectus minus? Voluptate, nam </p>
+
+</body>
+</html>

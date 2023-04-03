@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclando célula</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
+        *{
+            margin: 40px;
+        }
+        table{
+            border-collapse: collapse;
+            width: 400px;
+            text-align: center;
+            margin: auto;
+        }
+       tr, td{
+          border: 2px solid rgb(0, 0, 0);
+          padding: 20px;
+          font-family: 'Libre Baskerville', serif;
+        }
+        td.dado{
+            background-color: cornflowerblue;
+        }
+        td.infor{
+            background-color: #15a3d2;
+        }
+        td.docum{
+            background-color:#457DED;
+        }
+        caption{
+            font-family: 'Libre Baskerville', serif;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+     
+    <table>
+        <caption>Tabela Mesclada</caption>
+        <tr>
+            <td colspan="4" class="docum">A</td>
+            <td rowspan="5" class="docum">B</td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td rowspan="4" class="docum">C</td>
+            <td class="dado">D</td>
+            <td>E</td>
+            <td class="infor">F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td class="dado">H</td>
+            <td>I</td>
+            
+        </tr>
+        <tr>
+            <td class="infor">J</td>
+            <td>L</td>
+            <td class="dado">M</td>
+            
+        </tr>
+        <tr>
+            <td colspan="5" class="docum">N</td>
+        </tr>
+    </table>
+</body>
+</html>

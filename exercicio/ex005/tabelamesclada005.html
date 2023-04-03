@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclando Célula</title>
+    <style>
+        *{
+            margin: 30px;
+            background-color: #80a6ec;
+        }
+        caption{
+            font-size: 30px;
+        }
+        table{
+            width: 400px;
+            text-align: center;
+            border-collapse: collapse;
+            margin: auto;
+        }
+        tr td{
+            padding: 20px;
+            border: 2px solid #000000;
+        }
+        td.dado{
+            background-color: #D26FF0;
+        }
+        td.infor{
+            background-color: #E58FFF;
+        }
+        td.dado:hover{
+            background-color: #8fc52d;
+            transform: scale(1.10);
+        }
+        td.infor:hover{
+            background-color: #C2F06E;
+        
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Mesclando Célula</caption>
+        <tr>
+            <td class="infor">1</td>
+            <td class="dado">2</td>
+            <td rowspan="2" class="infor">3</td>
+            <td class="dado">4</td>
+           
+        </tr>
+        <tr>
+            <td class="infor">5</td>
+            <td class="dado">6</td>
+            <td class="infor">7</td>
+
+        </tr>
+        <tr>
+            <td colspan="3" class="dado">8</td>
+            <td class="infor">9</td>
+            
+        </tr>
+        <tr>
+            <td rowspan="2" class="dado">10</td>
+            <td colspan="2" class="infor">11</td>
+            <td class="dado">12</td>  
+             
+
+        </tr>
+        <tr>
+            <td class="infor">13</td>  
+            <td class="dado">14</td> 
+            <td class="infor">15</td> 
+        </tr>
+        
+        
+    </table>
+</body>
+</html>

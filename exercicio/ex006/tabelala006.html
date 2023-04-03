@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --corthMulher:#18cfdb;
+            --corThHomem:#dbbd02;
+            --corpoTable:#8f0159;
+              
+        }
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            margin: auto;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+            font-size: 1.5em;
+            text-align: center;
+        }
+        th.girl{
+           background-color: #18CFDB;
+        }
+        th.boy{
+            background-color: #0d7e7b;
+        }
+        th.body{
+            background-color: #8F0159;
+        }
+        td.dado{
+            background-color: #71ae09;
+        }
+        td.infor{
+            background-color: #01868F;
+        }
+        td.classe{
+            background-color: #02454ac0;
+        }
+        td.form{
+            background-color: #ccc;
+        }
+        caption{
+            font-size: 2.5em;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h1>Excercício de Tabela</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+        <tr>
+            <th class="body">Grupos</th>
+            <th class="body" >Nomes</th>
+            <th colspan="3" class="body">Filmes</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" class="girl">Mulheres</th>
+                <td class="dado">Jaqueline Dias</td>
+                <td class="classe">Alien</td>
+                <td class="classe">Vingador</td>
+                <td class="classe">Calmaria</td>
+            </tr>
+            <tr>
+                <td class="dado">Elza Conceição</td>
+                <td class="classe">Batman</td>
+                <td class="classe">Close</td>
+                <td class="classe">Coringa</td>
+            
+            </tr>
+            <tr>
+                <td class="dado">Barbára Luz</td>
+                <td class="classe">Duna</td>
+                <td class="classe">Trapaça</td>
+                <td class="classe">Corra</td>
+            
+            </tr>
+            <tr>
+                <th rowspan="3" class="boy">homens</th>
+                <td class="infor">Robson Santos</td>
+                <td class="form">Hulk</td>
+                <td class="form">Navalny</td>
+                <td class="form">Tenet</td>
+            </tr>
+            <tr>
+                <td class="infor">Erick Silva</td>
+                <td class="form">Aquaman</td>
+                <td class="form">Divergente</td>
+                <td class="form">Hall Pass</td>
+            </tr>
+            <tr>
+                <td class="infor">Rodrigo Bomfim</td>
+                <td class="form">Hereditário</td>
+                <td class="form">Maligno</td>
+                <td class="form">Rambo</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
