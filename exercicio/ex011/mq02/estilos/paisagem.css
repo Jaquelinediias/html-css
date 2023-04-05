@@ -1,2 +1,6 @@
 @charset "UTF-8";
 /* Aparelho deitado*/
+body{
+   background-image: url(../imagens/cachorros-de-raca-pura-fofos-em-um-estudio\ 2000x1133.jpg);
+   background-position: center;
+}
