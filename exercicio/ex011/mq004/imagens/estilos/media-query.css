@@ -1,3 +1,48 @@
 @charset "UTF-8";
 /*TODAS AS DEMAIS MÍDIAS*/
 
+@media print{
+
+}
+@media screen and (min-width:768px) and (max-width:992px){
+  body{
+    background-image: url(../back-tablet.jpg);
+  }
+
+    img#iphone{display: none;}
+    img#tablet{display: block;}
+    img#print{display: none;}
+    img#tv{display: none;}
+    img#pc{display: none;}
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    body{
+        background-image: url(../back-pc.jpg);
+    }
+
+    img#iphone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#tv{display: none;}
+    img#pc{display: block;}
+}
+
+@media screen and (min-width:1200px) {
+    body{
+        background-image: url(../back-tv.jpg);
+    }
+    main{
+        width: 500px;
+    }
+    h1{
+        color:#000000;
+    }
+
+    img#iphone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#tv{display: block;}
+    img#pc{display: none;}
+
+}
