@@ -1,0 +1,24 @@
+body{
+   margin: 50px;
+   display: grid; 
+   place-content: space-between;
+   grid-template: repeat(2,50px) / repeat(2,50px);
+   gap: 100px;
+   padding: 42px;
+   background-color: #7fcbda;
+    
+}
+div {
+    
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-color: #cc2dc4 transparent #000 transparent;
+    
+}
+.a{
+    margin-top: 150px;
+}
+
+
+
